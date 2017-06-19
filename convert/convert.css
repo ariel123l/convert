@@ -1,0 +1,37 @@
+#t1{
+	width: 30%
+}
+
+#t2{
+	width: 30%
+}
+
+#t3{
+	width: 30%
+}
+.table-responsive{
+    display: flex;
+    justify-content: space-between;
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.container_convert{
+    margin-left: 29%;
+    border: 1px solid lightgrey;
+    width: 35%;
+    margin-top: 5%;
+}
+.container_convert input{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.error_same_currency{
+	color: red;
+}
+.convert_now{
+    margin-left: 40%;
+    background-color: greenyellow;
+}

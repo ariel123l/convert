@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="convert.css"/>
+	<title>Convert</title>
+</head>
+<body>
+
+<button class="convert_now">convert now</button>
+<div class="container">
+	<div class="headers">
+	  <h2>AUDUSD</h2>
+	  <h2>GBPUSD</h2>
+	  <h2>JPYUSD</h2>
+ 	</div>                                                                         
+  <div class="table-responsive">   
+
+  <table class="table aud"  id="t1">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Description</th>
+        <th>Value</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Time</td>
+        <td class="time_aud">1</td>
+
+      </tr>
+
+       <tr>
+        <td>2</td>
+        <td>Price</td>
+        <td class="price_aud">Pitt</td>
+
+      </tr>
+
+       <tr>
+        <td>3</td>
+        <td>Symbool</td>
+        <td class="Symbol_aud">Pitt</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+   <table class="table aud"  id="t2">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Description</th>
+        <th>Value</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Time</td>
+        <td class="Time_gbp">ww</td>
+
+      </tr>
+
+       <tr>
+        <td>2</td>
+        <td>Price</td>
+        <td class="price_gbp">Pitt</td>
+
+      </tr>
+
+       <tr>
+        <td>3</td>
+        <td>Symbool</td>
+        <td class="Symbol_gbp">Pitt</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+   <table class="table aud"  id="t3">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Description</th>
+        <th>Value</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Time</td>
+        <td class="Time_jpy">ww</td>
+
+      </tr>
+
+       <tr>
+        <td>2</td>
+        <td>Price</td>
+        <td class="price_jpy">Pitt</td>
+
+      </tr>
+
+       <tr>
+        <td>3</td>
+        <td>Symbool</td>
+        <td class="symbol_jpy">Pitt</td>
+
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<div class="container_convert">
+	Select Forex :
+	<select class="select_convert">
+    <option class="opt_from">EUR</option>
+    <option class="opt_from">JPY</option>
+	  <option class="opt_from">USD</option>
+	</select>
+  Enter Quntity :
+  <input type="number" class="convert_quantity" pattern= "[0-9]" min="1" required value="100">
+
+  
+  <br>
+  Convert To  :
+  <select class="select_convert_to">
+    <option class="opt_to">JPY</option>
+    <option class="opt_to">USD</option>
+    <option class="opt_to">EUR</option>
+  </select>
+  <br>  
+  Result  :
+  <input type="text" class="convert_result" disabled="" >
+
+	<button type="submit" class="convert_button">Convert</button>
+</div>
+
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
